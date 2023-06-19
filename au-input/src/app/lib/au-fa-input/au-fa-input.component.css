@@ -14,6 +14,12 @@
     border: 1px solid lightgray;
 }
 
+:host(.input-focus){
+    outline: none;
+    border: 1px solid #4D90FE;
+    box-shadow: 0px 0px 5px #4D90FE;
+}
+
 :host ::ng-deep input {
     height: 100%;
     border: none;
